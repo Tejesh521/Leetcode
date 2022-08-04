@@ -1,0 +1,18 @@
+import json
+class Solution:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        s.reverse()
+        print(json.dumps(s))
+        
+        
+        
+        
+        
+        
+        Success
+Details 
+Runtime: 366 ms, faster than 27.53% of Python3 online submissions for Reverse String.
+Memory Usage: 18.5 MB, less than 46.37% of Python3 online submissions for Reverse String.
